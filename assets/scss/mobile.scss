@@ -1,0 +1,22 @@
+@media (max-width: 960px) {
+  .slider{
+    margin-top: 0;
+  }
+  .services{
+    margin-top: -40px;
+    &_item{
+      margin-bottom: 30px;
+    }
+    &_icon{
+      position: relative;
+    }
+  }
+  .news{
+    &_item{
+      margin-bottom: 24px;
+    }
+  }
+  .owl-nav{
+    display: none;
+  }
+}

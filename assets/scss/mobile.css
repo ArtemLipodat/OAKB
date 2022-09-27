@@ -1,0 +1,20 @@
+@media (max-width: 960px) {
+  .slider {
+    margin-top: 0;
+  }
+  .services {
+    margin-top: -40px;
+  }
+  .services_item {
+    margin-bottom: 30px;
+  }
+  .services_icon {
+    position: relative;
+  }
+  .news_item {
+    margin-bottom: 24px;
+  }
+  .owl-nav {
+    display: none;
+  }
+}/*# sourceMappingURL=mobile.css.map */
