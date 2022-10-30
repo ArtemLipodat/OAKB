@@ -4148,7 +4148,7 @@ h4 {
 }
 
 .content {
-  margin-top: 70px;
+  margin-top: 20px;
 }
 .content_main {
   min-height: 100vh;
@@ -4238,6 +4238,9 @@ h4 {
   position: absolute;
   top: 50px;
   left: 0;
+  height: 100vh;
+  overflow-y: auto;
+  overflow-x: hidden;
 }
 .menu_nav .dropDown_item .list-link {
   margin-bottom: 30px;
@@ -4640,7 +4643,7 @@ h4 {
 }
 .btn.btn-blue {
   color: #fff;
-  background: url("../image/button_bg.svg") no-repeat center center;
+  background: #EC6608;
 }
 .btn.btn-blue.rounded-none {
   border-radius: 0;

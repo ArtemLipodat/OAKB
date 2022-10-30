@@ -25,7 +25,7 @@ h4{
 }
 
 .content{
-  margin-top: 70px;
+  margin-top: 20px;
   &_main{
     min-height: 100vh;
   }
@@ -130,6 +130,9 @@ h4{
         position: absolute;
         top: 50px;
         left: 0;
+        height: 100vh;
+        overflow-y: auto;
+        overflow-x: hidden;
       }
     }
     span{
@@ -491,7 +494,7 @@ h4{
   font-family: $display-font-family;
   &.btn-blue{
     color: $white;
-    background: url('../image/button_bg.svg') no-repeat center center;
+    background: #EC6608;
     &.rounded-none{
       border-radius: 0;
     }
